@@ -1,10 +1,10 @@
 package com.example;
 
-public class CaminoDeReparto extends Transporte {
+public class CamionDeReparto extends Transporte {
     private boolean tieneRefrigeracion;
     
     // Constructor
-    public CaminoDeReparto(String idTransporte, double combustible, double capacidadCarga, boolean tieneRefrigeracion) {
+    public CamionDeReparto(String idTransporte, double combustible, double capacidadCarga, boolean tieneRefrigeracion) {
         super(idTransporte, combustible, capacidadCarga);
         this.tieneRefrigeracion = tieneRefrigeracion;
     }

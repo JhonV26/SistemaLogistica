@@ -8,7 +8,7 @@ public class Main {
         
         // 1. Instanciación Segura
         System.out.println("1. CREANDO VEHÍCULOS:");
-        CaminoDeReparto camion = new CaminoDeReparto("CAM-001", 80.0, 5000.0, true);
+        CamionDeReparto camion = new CamionDeReparto("CAM-001", 80.0, 5000.0, true);
         BuqueCarga buque = new BuqueCarga("BUQ-001", 95.0, 20000.0, 50);
         
         System.out.println("Camión creado: " + camion);
